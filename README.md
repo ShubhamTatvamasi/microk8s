@@ -8,6 +8,11 @@ alias mkctl='microk8s kubectl'
 export KUBECONFIG=~/.microk8s/config
 ```
 
+enable storage:
+```bash
+microk8s enable storage
+```
+
 reset cluster:
 ```bash
 microk8s reset
